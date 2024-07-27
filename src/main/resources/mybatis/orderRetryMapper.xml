@@ -6,6 +6,6 @@
 <mapper namespace="com.tony.user.mapper.OrderRetryMapper">
 
     <select id="getOrderRetry" resultType="java.util.Map">
-        SELECT yuyue_id yuyueId FROM yuyue_pay_refund_retry WHERE state = 1 AND  type = 1 and retry_num <![CDATA[<]]> 5
+        SELECT yuyue_id yuyueId FROM yuyue_pay_refund_retry WHERE state = 1 AND type = 1 and retry_num <![CDATA[<]]> 5
     </select>
 </mapper>
